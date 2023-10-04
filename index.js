@@ -1,6 +1,6 @@
 const el = document.getElementById('btn-play');
 const playing = false;
-const player = new Audio('/gg.mp3');
+const player = new Audio('gg.mp3');
 player.preload = "auto";
 player.addEventListener('ended', function(){ // слушаем окончание трека
   el.innerText = "Done";
