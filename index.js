@@ -6,7 +6,7 @@ el.addEventListener('click', () => {
 });
 
 function bodyMusic() {
-    const bgPlayer = new Audio('Background_music.acc');
+    const bgPlayer = new Audio('gg.mp3');
     bgPlayer.preload = "auto";
     bgPlayer.play();
     console.log("gg");
